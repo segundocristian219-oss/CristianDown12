@@ -12,7 +12,6 @@ conn.reply(m.chat, '_*LA BIENVENIDA DEL GRUPO HA SIDO CONFIGURADA*_', fkontak, m
 handler.help = ['setwelcome @user + texto']
 handler.tags = ['group']
 handler.command = ['setwelcome', 'bienvenida'] 
-handler.botAdmin = true
 handler.admin = true
 handler.group = true
 export default handler
